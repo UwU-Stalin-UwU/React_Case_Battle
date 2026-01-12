@@ -1,0 +1,18 @@
+.hero-banner {
+  text-align: center;
+  padding: 60px 0 40px;
+}
+
+.hero-title {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  margin-top: 10px;
+  font-size: 20px;
+  opacity: 0.75;
+  font-weight: 400;
+}

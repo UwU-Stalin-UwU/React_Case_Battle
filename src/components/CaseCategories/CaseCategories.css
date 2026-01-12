@@ -1,0 +1,19 @@
+.case-categories {
+  display: flex;
+  gap: 14px;
+  margin: 20px 0;
+}
+
+.category-btn {
+  background: var(--bg-card);
+  padding: 10px 18px;
+  border-radius: var(--radius);
+  color: var(--text-muted);
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.category-btn:hover {
+  background: var(--accent);
+  color: #000;
+}

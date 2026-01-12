@@ -1,0 +1,42 @@
+.live-drops {
+  width: 100%;
+  overflow: hidden;
+  background: var(--bg-panel);
+  padding: 12px 0;
+  margin: 40px 0;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+}
+
+.drops-track {
+  display: flex;
+  gap: 24px;
+  animation: scroll 18s linear infinite;
+}
+
+@keyframes scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.drop-item {
+  background: var(--bg-card);
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.drop-user {
+  color: var(--accent);
+  margin-right: 6px;
+}
+
+.drop-item-name {
+  color: var(--success);
+  margin: 0 6px;
+}
+
+.drop-price {
+  color: var(--accent);
+  font-weight: 600;
+}

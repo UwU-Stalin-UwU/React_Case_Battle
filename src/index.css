@@ -1,0 +1,36 @@
+:root {
+  --bg-dark: #0d0f14;
+  --bg-panel: #151820;
+  --bg-card: #1b1f29;
+  --bg-hover: #232837;
+
+  --accent: #ffcc00;
+  --accent-hover: #ffd633;
+
+  --text-main: #ffffff;
+  --text-muted: #8a8fa3;
+
+  --success: #4cff79;
+  --danger: #ff4c4c;
+
+  --radius: 12px;
+  --transition: 0.2s ease;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-dark);
+  color: var(--text-main);
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}

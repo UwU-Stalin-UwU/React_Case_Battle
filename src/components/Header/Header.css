@@ -1,0 +1,57 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 32px;
+  background: var(--bg-header);
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.nav {
+  display: flex;
+  gap: 22px;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  opacity: 0.85;
+  transition: 0.2s;
+}
+
+.nav a:hover {
+  opacity: 1;
+}
+
+/* Правая часть: заработок + баланс */
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* Стиль кнопки заработок НЕ менялся */
+.earn-btn {
+  background: var(--accent);
+  padding: 6px 12px;
+  border-radius: var(--radius);
+  font-weight: 600;
+  color: black !important;
+  opacity: 1 !important;
+}
+
+.balance {
+  font-weight: 700;
+  font-size: 18px;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 6px 14px;
+  border-radius: var(--radius);
+}
